@@ -1,9 +1,8 @@
-from __future__ import print_function
+# -*- coding: utf-8 -*-
 
+from __future__ import absolute_import, division, print_function, unicode_literals
 from optparse import make_option
-
 from django.core.management.base import BaseCommand, CommandError
-
 from waffle.models import Switch
 
 

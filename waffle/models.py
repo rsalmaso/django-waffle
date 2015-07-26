@@ -1,8 +1,7 @@
-try:
-    from django.utils import timezone as datetime
-except ImportError:
-    from datetime import datetime
+# -*- coding: utf-8 -*-
 
+from __future__ import absolute_import, division, print_function, unicode_literals
+from django.utils import timezone as datetime
 from django.contrib.auth.models import Group
 from django.db import models
 from django.db.models.signals import post_save, post_delete, m2m_changed

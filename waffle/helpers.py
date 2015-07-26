@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
+
+from __future__ import absolute_import, division, print_function, unicode_literals
 import jingo
 import jinja2
-
 from waffle import flag_is_active, sample_is_active, switch_is_active
 from waffle.views import _generate_waffle_js
 

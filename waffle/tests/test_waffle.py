@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+from __future__ import absolute_import, division, print_function, unicode_literals
 import random
 
 from django.contrib.auth.models import AnonymousUser, Group, User

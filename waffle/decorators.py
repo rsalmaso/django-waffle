@@ -1,8 +1,9 @@
-from functools import wraps
+# -*- coding: utf-8 -*-
 
+from __future__ import absolute_import, division, print_function, unicode_literals
+from functools import wraps
 from django.http import Http404
 from django.utils.decorators import available_attrs
-
 from waffle import flag_is_active, switch_is_active
 
 
