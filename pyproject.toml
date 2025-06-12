@@ -42,6 +42,7 @@ Homepage = "http://github.com/django-waffle/django-waffle"
 [tool.setuptools]
 zip-safe = false
 include-package-data = true
+license-files = []
 
 [tool.setuptools.dynamic]
 version = {attr = "waffle.__version__"}
